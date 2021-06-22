@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Pratique Yogourt de Dan</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <!--This is the Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--This is my own stylesheet CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    
+    <!--Navigation-->
+    <!--Truc CSS : Pour enlever la couleur bg du menu et mettre transparent, enlever (navbar-light et bg-light) dans la ligne ci-dessous-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="/images/logo-dans-meat-yogurt.svg" width="180" height="180" alt="Compagnie de Yogourt de Dan">
+        </a>
+      </nav>
+      <!--<a class="navbar-brand" href="#">Les yogourt de Dan</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto float-right">
+          
+          <!--Bouton - Dropdown-menu-->
+          <li class="nav-item dropdown btn btn-outline-light mr-4" style="width: 120px;">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Saveurs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Poulet</a>
+              <a class="dropdown-item" href="#">Boeuf</a>
+              <a class="dropdown-item" href="#">Poisson</a>
+              <a class="dropdown-item" href="#">Vegan</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Idées de recettes</a>
+            </div>
+          </li>
+          
+          <!--Bouton - Menu-normal-->
+          <li class="nav-item btn btn-outline-light" style="width: 120px;">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+     <!--Jumbotron-->
+     <div class="jumbotron">
+        <div class="row">
+          <div class="col-12 col-md-7 text-center text-md-left">
+            <h1 class="display-3 text-white drop-shadow">Épais & Crémeux</h1>
+            <p class="lead">Fait avec des morceaux de vraie viande. Hummm ou plutôt, meuh...!!</p>
+            <a class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5" href="#" role="button">Mon prix</a>
+          </div>
+          <div class="col-12 col-md-5">
+            <img src="images/hero1.png" alt="Description du yogourt à la viance" class="img-fluid">
+          </div>
+        </div>
+      </div>
+     
+     <!--Founder's message-->
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="/images/headshot-dan.jpg" class="img-fluid rounded-left rounded-lg border-0" alt="Daniel Scott - Meat Yogourt History's Founder">
+        </div>
+        <div class="col-12 col-md-8 bg-white p-5 d-flex align-items-center border border-dark rounded-lg rounded-right">
+            <div class="section">
+              <h2>Message du fondateur</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint animi repudiandae, eaque ipsum libero asperiores blanditiis dolor voluptatem, dignissimos omnis illo itaque exercitationem unde ad reiciendis natus dolore at modi ex alias? Ipsa voluptatem nihil magni quisquam ea nobis aliquid! Porro corrupti, dolor, at non unde fuga commodi, possimus quidem quasi expedita atque fugiat eaque velit ipsa recusandae nam impedit!</p>
+            </div>
+          
+        </div>
+      </div>
+
+
+
+      <!--Carousel-->
+      <div id="carouselExampleControls" class="carousel slide d-none d-md-block carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active " data-interval="500">
+            <img src="images/yogurt-1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="500">
+            <img src="images/yogurt-2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="500" >
+            <img src="images/yogurt-3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!--Cards-->
+    <div class="card-deck">
+      <div class="card shadow" style="width: 18rem;">
+          <img src="images/product1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+              <a href="https://www.bringyourownlaptop.com/" class="btn btn-primary stretched-link">Go somewhere</a>
+          </div>
+      </div>
+      
+      <div class="card shadow" style="width: 18rem;">
+          <img src="images/product2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+              <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+          </div>
+      </div>
+      
+      <div class="card shadow" style="width: 18rem;">
+          <img src="images/product3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+              <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+          </div>
+      </div>
+    </div>
+
+
+   </div>
+
+
+    <!--This is the Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><!--This is the end of Bootstrap JS-->
+</body>
+</html>
